@@ -1,0 +1,12 @@
+@media screen and (max-width:500px) {
+   body .secondbox {
+        margin-right: 10px;
+        align-items: flex-end;
+        display: flex;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    body .rectangle{
+        display: none;
+    }
+}

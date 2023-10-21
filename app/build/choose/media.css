@@ -1,0 +1,61 @@
+@media screen and (max-width:900px) {
+    body .choosein{
+        width: 95%;
+        height:70px;
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 1px grey;
+        border-left: 3px solid #9f0000;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+    body .chooseintext{
+        font-size: 90%;
+        font-weight: 500;
+    }
+    body .chooseintext1{
+        margin-left: 10px;
+        font-size: 90%;
+        font-weight: 500;
+    }
+    body .chooseintext2{
+        margin-left: 10px;
+        font-size: 90%;
+        font-weight: 500;
+    }
+    body .chooseintext3{
+        margin-left: 10px;
+        font-size: 90%;
+        font-weight: 500;
+    }
+    body .shalaye{
+        font-size: 85%;
+        line-height: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+        color: black;
+        font-weight: 500;
+        font-family: 'inter-medium', helvetica;
+    }
+    body .shalayes{
+        font-size: 85%;
+        line-height: 30px;
+        width: 95%;
+        margin-bottom: 20px;
+        text-align: center;
+        color: black;
+        font-weight: 400;
+    }
+    body .chooser{
+        text-align: left;
+    }
+    body .chooser2{
+        text-align: left;
+    }
+    body .shalaye {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 50px;
+        font-family: 'inter-medium', helvetica;
+    }
+}

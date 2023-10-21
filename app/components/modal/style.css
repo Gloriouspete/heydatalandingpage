@@ -1,0 +1,67 @@
+.modalmain {
+    width: 600px;
+    height: 450px;
+    border: 2px solid blue;
+    display: flex;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+ .createinput {
+    width: 80%;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    text-align: center;
+}
+ .createinput::selection{
+    border: 2px solid blue;
+}
+ .passinput {
+    width: 80%;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    text-align: center;
+}
+
+ .createmodbutton {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #0000ff;
+    background-color: yellow;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+ .modaltext {
+    font-size: 90%;
+    font-weight: 500;
+}
+.modaltextj {
+    font-size: 90%;
+    font-weight: 400;
+    font-style: italic;
+}
+ .minmodal {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   left:250px;
+}
+
+ .kiloder {
+    font-weight: 800;
+ 
+}

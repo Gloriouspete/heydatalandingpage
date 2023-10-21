@@ -1,0 +1,21 @@
+@media screen and (max-width:500px) {
+    body .footer{
+        width: 100%;
+
+    }
+    body{
+        overflow-x: hidden;
+    }
+    body .headservice{
+        color: white;
+        font-size: 120%;
+        font-weight: 700;
+        text-align: center;
+    }
+    body .miniservices{
+        color: white;
+        text-align: center;
+        font-size: 80%;
+        font-weight: 500;
+    }
+}

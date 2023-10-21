@@ -1,0 +1,66 @@
+.loginmain{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.loginbox{
+    width:400px;
+    height:500px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px red;
+    border-radius: 25px;
+}
+.loginbig{
+    font-size: 25px;
+    font-weight: 800;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:20px ;
+    margin-top: 50px;
+}
+.please{
+    font-size: 20px;
+    font-weight: 800;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:20px ;
+    color: #444444;
+   
+}
+.formbox{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.boxcont{
+    width:90%;
+    box-shadow: 1px 1px 1px grey;
+    height: 45px;
+    border-radius: 10px;
+    border: 0.3px solid grey;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.inputstyle{
+    border: none;
+    width: 70%;
+    height: 90%;
+    outline: none;
+}
+.buttonstyle{
+    width:100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    border: none;
+    background-color: #000042;
+}

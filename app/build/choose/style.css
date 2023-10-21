@@ -1,0 +1,100 @@
+.chooser {
+    color: #000000;
+    font-size: 23px;
+    font-weight: 700;
+    text-shadow: 2px 1px 2px white;
+
+}
+
+.chooser2 {
+    color: #000042;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.shalaye {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'inter-medium', helvetica;
+}
+.shalayes {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'inter', helvetica;
+}
+
+
+.choosebox {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.choosein {
+    width: 45%;
+    height: 70px;
+    margin-bottom: 20px;
+    border-left-width: 5px;
+    box-shadow: 1px 1px 1px grey;
+    border-left: 2px solid #9f0000;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.chooseintext {
+    margin-left: 10px;
+    font-family: 'inter', helvetica;
+    color: black;
+}
+
+.chooseintext1 {
+    margin-left: 10px;
+    font-family: 'inter', helvetica;
+    color: black;
+}
+
+.chooseintext2 {
+    margin-left: 10px;
+    font-family: 'inter', helvetica;
+    color: black;
+}
+
+.chooseintext3 {
+    margin-left: 10px;
+    font-family: 'inter', helvetica;
+    color: black;
+}
+
+.chooseintext::before {
+    content: '1: ';
+    font-weight: 500;
+}
+
+.chooseintext1::before {
+    content: '2: ';
+    font-weight: 500;
+}
+
+.chooseintext2::before {
+    content: '3: ';
+    font-weight: 500;
+}
+
+.chooseintext3::before {
+    content: '4: ';
+    font-weight: 500;
+}
+.choosez {
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'inter-medium', helvetica;
+    color: #000042;
+}

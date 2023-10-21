@@ -1,0 +1,14 @@
+.boxman {
+    width: 90vw;
+    height: 60vh;
+    background-color: #ffffff;
+    left: 3%;
+    position: fixed;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-around;
+}

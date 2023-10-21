@@ -1,0 +1,34 @@
+.footerbox{
+    width: 100vw;
+    background-color: #000042;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 30px;
+}
+.footercover{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer{
+    width: 35%;
+    height: auto;
+}
+.headservice{
+ 
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+  
+}
+.miniservices{
+  margin-bottom: 30px;
+  text-align: center;
+    color: white;
+}

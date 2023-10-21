@@ -30,8 +30,8 @@ const Choose = () => {
             <p className='shalayes'>Remember, HeyData is not just a website; it's an ethos - A celebration of the anxious, unrestricted power of human thought!
             Join us today and be free from expensive services.🚀 </p>
             <div className='logbox'>
-                    <Link to='https://app.apple.com'><button className='signbutton'><FaGooglePlay size={20} /> Apps Store</button></Link>
-                    <Link to='https://play.google.com'><button className='signbutton'><FaGooglePlay size={20} /> Google Play</button></Link>
+                    <a href='https://app.apple.com'><button className='signbutton'><FaGooglePlay size={20} /> Apps Store</button></a>
+                    <a href='https://play.google.com'><button className='signbutton'><FaGooglePlay size={20} /> Google Play</button></a>
                 </div>
         </>
     )

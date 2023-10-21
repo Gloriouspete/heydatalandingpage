@@ -57,8 +57,13 @@ const Content = () => {
                         <p className='liltext'>...offers instant recharge of Airtime, Data Bundle, CableTV (DStv, GOtv & Startimes), Electricity Bill Payment, Recharge Card Printing and so
                             much more to our customers.</p>
                         <div className='logbox'>
-                            <Link to='https://apps.apple.com'><button className='signbutton'>Apple Store</button></Link>
-                            <Link to='https://play.google.com'><button className='signbutton'><FaGooglePlay size={20} /> Google Play</button></Link>
+                            <a href="https://apps.apple.com"><button className='signbutton'>Apple Store</button></a>
+                            <a href="https://play.google.com">
+  <button className="signbutton">
+    <FaGooglePlay size={20} /> Google Play
+  </button>
+</a>
+
                         </div>
                     </div>
                     <div className='imagecover'>

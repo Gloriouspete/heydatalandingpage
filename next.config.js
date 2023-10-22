@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/',
-        destination: '/layout/home/Home', // Adjust the path to your App component
+        destination: '/app/layout/home/Home', // Adjust the path to your App component
       },
     ];
   },

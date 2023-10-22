@@ -4,8 +4,8 @@ import './media.css';
 import './style.css';
 
 
-import Content from '../../build/content';
-import Footer from '../../build/footer';
+import Content from '../../build/content/page';
+import Footer from '../../build/footer/page';
 const Home = () => {
     return (
         <>

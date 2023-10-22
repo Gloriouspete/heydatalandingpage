@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import Image from 'next/image';
 import { useClient } from 'next/client';
 import './media.css';
-import Home from '../../layout/home/Home';
+import Home from '../../layout/home/page';
 import './style.css';
 import { MdComputer } from 'react-icons/md';
 import { FaLaptop, FaTabletButton, FaTv } from 'react-icons/fa6';

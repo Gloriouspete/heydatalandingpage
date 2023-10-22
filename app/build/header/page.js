@@ -9,7 +9,7 @@ import {Image } from 'next/image';
 
 
 
-export const Header = ({ color1, color2, color3 }) => {
+const Header = ({ color1, color2, color3 }) => {
     const [isClick, setisClick] = useState(false);
 
     const eruku = () => (
@@ -66,3 +66,5 @@ export const Header = ({ color1, color2, color3 }) => {
 
     )
 }
+
+export default Header;

@@ -3,10 +3,11 @@ import React from 'react';
 import Home from './layout/home/Home';
 import './fonts/font.css';
 
-export const Page = () => {
+const Page = () => {
   return (
     <Home />
   );
 }
 
+export default Page;
 

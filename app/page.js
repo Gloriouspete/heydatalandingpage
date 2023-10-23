@@ -9,7 +9,7 @@
   import { FaGooglePlay } from 'react-icons/fa6';
 import './globals.css';
   
- const App = () => { 
+ const Page = () => { 
   
      const refs = useRef()  
       const ref = useRef()  
@@ -184,4 +184,4 @@ import './globals.css';
  ) 
  }; 
   
- export default App;
+ export default Page;

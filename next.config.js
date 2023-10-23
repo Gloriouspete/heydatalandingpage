@@ -7,5 +7,6 @@ module.exports = {
       },
     ];
   },
-  // Other configuration options go here
+  
+  target: 'serverless',
 };

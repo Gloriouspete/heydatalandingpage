@@ -1,5 +1,13 @@
-import React from 'react';
-import Home from './layout/home/page';
+'use client'
+import React, { useRef } from 'react'; 
+ import Image from 'next/image'; 
+ import { useClient } from 'next/client'; 
+ import { MdComputer } from 'react-icons/md'; 
+ import { FaLaptop, FaTabletButton, FaTv } from 'react-icons/fa6'; 
+ import { Link } from 'react-router-dom'; 
+ import Choose from '../choose/page'; 
+ import { useInView, motion } from 'framer-motion'; 
+ import { FaGooglePlay } from 'react-icons/fa6';
 
 const App = () => {
   return (

@@ -6,7 +6,8 @@
   import { FaLaptop, FaTabletButton, FaTv } from 'react-icons/fa6';  
   import { Link } from 'react-router-dom';  
   import { useInView, motion } from 'framer-motion';  
-  import { FaGooglePlay } from 'react-icons/fa6'; 
+  import { FaGooglePlay } from 'react-icons/fa6';
+import './globals.css';
   
  const App = () => { 
   

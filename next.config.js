@@ -7,6 +7,4 @@ module.exports = {
       },
     ];
   },
-  
-  target: 'serverless',
 };

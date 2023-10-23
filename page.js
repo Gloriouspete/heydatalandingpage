@@ -5,7 +5,6 @@ import React, { useRef } from 'react';
  import { MdComputer } from 'react-icons/md'; 
  import { FaLaptop, FaTabletButton, FaTv } from 'react-icons/fa6'; 
  import { Link } from 'react-router-dom'; 
- import Choose from '../choose/page'; 
  import { useInView, motion } from 'framer-motion'; 
  import { FaGooglePlay } from 'react-icons/fa6';
 

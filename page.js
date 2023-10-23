@@ -10,6 +10,15 @@ import React, { useRef } from 'react';
  import { FaGooglePlay } from 'react-icons/fa6';
 
 const App = () => {
+
+    const refs = useRef() 
+     const ref = useRef() 
+     const refo = useRef() 
+     const terr = useRef(); 
+     const isView = useInView(ref); 
+     const isTerr = useInView(terr) 
+     const InView = useInView(refo); 
+     const isInView = useInView(refs);
   return (
 <>
                   <div className='main'> 
@@ -32,7 +41,7 @@ const App = () => {
              </div> 
   
                  <div className='textcover' style={{ 
-                     backgroundImage: `url('../../../background.png')`, 
+                     backgroundImage: `url('./background.png')`, 
                      backgroundSize: 'cover', 
                      backgroundRepeat: 'no-repeat', 
                  }}> 
